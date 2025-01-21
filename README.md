@@ -19,4 +19,4 @@ Este é um projeto para a criação de funcionalidades para um sistema de sortei
 </div>
 
 ## Link do projeto (Deploy) ##:
-<a href = "https://moisesamjunior.github.io/amigo_secreto/">https://moisesamjunior.github.io/amigo_secreto/</a>
+<a href = "https://moisesamjunior.github.io/amigo_secreto/" target="_blank">https://moisesamjunior.github.io/amigo_secreto/</a>
