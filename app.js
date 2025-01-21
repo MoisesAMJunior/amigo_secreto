@@ -55,7 +55,7 @@ function sortearAmigo() {
 }
 
 // Inicia um novo jogo
-function novoJogo() {
+function novoSorteio() {
     amigos = []; // Limpa o array de amigos
     lista.innerHTML = ""; // Limpa a lista
     limparEntrada(); // Limpa o campo de entrada
