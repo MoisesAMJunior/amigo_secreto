@@ -89,7 +89,10 @@ body {
 
 .button-container {
     width: 300px;
+    display: flex;
     justify-content: center;
+    gap: 20px;                  /* Espaçamento entre os botões */
+    margin-top: 20px;           /* Espaço acima dos botões */
 }
 
 /* Estilos de entrada de texto */
@@ -146,15 +149,19 @@ ul {
 .button-draw {
     display: flex;
     align-items: center;
-    width: 100%;
     padding: 10px 40px;
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
+    border-radius: 25px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    white-space: nowrap;
 }
 
 .button-draw img {
-    margin-right: 40px;
+    margin-right: 20px;           /* Menor espaço entre o ícone e o texto */
 }
 
 .button-draw:hover {
