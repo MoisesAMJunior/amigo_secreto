@@ -1,4 +1,4 @@
-# 🎁 Projeto "Amigo Secreto" 🧧
+# 🎁 Challenge "Amigo Secreto" 🧧
 
 Este é um projeto para a criação de funcionalidades para um sistema de sorteio de amigo secreto.
 
