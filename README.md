@@ -1,58 +1,19 @@
 # Projeto "Amigo Secreto"
 
-Este é um projeto em JavaScript para a criação de funcionalidades que realizam o sorteio de amigo secreto de forma automática. O objetivo é simplificar o processo de sorteio, garantindo que todos os participantes sejam sorteados sem repetições ou erros.
+Este é um projeto para a criação de funcionalidades para um sistema de sorteio de amigo secreto.
 
 ## Funcionalidades
+- **Inclusão do nome dos participantes**: Através de um botão é possível adicionar cada participante do sorteio.
+- **Exclusão de Repetições**: O sistema impede a inclusão de valores repetidos (desde que sejam escritos da mesma forma).
+- **Armazenamento de Registros**: Os nomes dos participantes são inseridos em uma lista para sorteio posterior.
+- **Sorteio de Participantes**: Ao clicar no botão para sorteio, o sistema sorteia de forma aleatória o "Amigo Secreto" entre os participantes.
+- **Novo sorteio**: É possível realizar um novo sorteio ao clicar no botão "Novo Sorteio". Dessa maneira, os registros anteriores são apagados.
 
-- **Sorteio de Participantes**: O sistema sorteia de forma aleatória os amigos secretos entre os participantes.
-- **Exclusão de Repetições**: Cada participante terá um amigo secreto único, sem repetições.
-- **Armazenamento de Resultados**: O resultado do sorteio é exibido para cada participante, garantindo a privacidade.
 
 ## Tecnologias Utilizadas
 
-- **JavaScript**: A principal linguagem para a implementação das funcionalidades.
-- **HTML/CSS**: Para criar a interface do usuário.
-- **Node.js** (opcional): Para rodar o script no backend, caso deseje implementar uma versão mais robusta do sorteio.
-
-## Como Executar
-
-1. Clone este repositório:
-    ```bash
-    git clone https://github.com/seu-usuario/amigo-secreto.git
-    ```
-
-2. Acesse a pasta do projeto:
-    ```bash
-    cd amigo-secreto
-    ```
-
-3. Abra o arquivo `index.html` em um navegador para rodar o sorteio de amigo secreto na interface gráfica.
-
-4. Caso queira rodar o script Node.js no terminal:
-    - Instale as dependências:
-      ```bash
-      npm install
-      ```
-
-    - Execute o sorteio:
-      ```bash
-      node sorteio.js
-      ```
-
-## Como Funciona o Sorteio
-
-O sorteio é feito de forma aleatória, onde cada participante é associado a outro sem repetições. O sistema garante que ninguém tire a si mesmo como amigo secreto.
-
-## Contribuição
-
-Se você quiser contribuir com o projeto, siga os passos abaixo:
-
-1. Faça um fork deste repositório.
-2. Crie uma branch para sua feature (`git checkout -b minha-feature`).
-3. Faça suas alterações e commit (`git commit -am 'Adiciona nova funcionalidade'`).
-4. Envie para o repositório remoto (`git push origin minha-feature`).
-5. Abra um Pull Request.
-
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
+<div stryle="display: inline_block"><br/>
+    <img align alt="Javascript" src="https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square">
+    <img align alt="HTML" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+    <img align alt="CSS" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+</div>
