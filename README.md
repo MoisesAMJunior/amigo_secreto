@@ -1,4 +1,4 @@
-# Amigo Secreto - Sorteio Automático
+# Projeto "Amigo Secreto"
 
 Este é um projeto em JavaScript para a criação de funcionalidades que realizam o sorteio de amigo secreto de forma automática. O objetivo é simplificar o processo de sorteio, garantindo que todos os participantes sejam sorteados sem repetições ou erros.
 
